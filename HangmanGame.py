@@ -4,19 +4,7 @@
 import random
 import hangmanstages
 import hangmanwords
-logo = ''' 
-
-   _   _                                         
-  | | | |                                        
-  | |_| | __ _ _ __   __ _ _ __ ___   __ _ _ __  
-  |  _  |/ _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
-  | | | | (_| | | | | (_| | | | | | | (_| | | | |
-  |_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
-                      __/ |                      
-                     |___/                        
-
-
-'''                                  
+import logo                                 
 print(logo)                                     
 words = (hangmanwords.words)
 hangman = (hangmanstages.hangman)
